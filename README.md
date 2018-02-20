@@ -9,3 +9,4 @@ ansible all -i __"ip seperate by comma and an extra comma at the end"__ -m ping 
   
 ``
 ansible all -i "127.0.0.1," -m ping --user dhavlev --become-user=sudo
+``
